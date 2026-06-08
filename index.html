@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Saif Zahid | Business Development Executive Portfolio</title>
+  <meta name="description" content="Portfolio of Muhammad Saif Zahid, Business Development Executive. Helping agencies and e-commerce stores scale lead generation, optimize sales funnels, and grow revenue.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&family=Poppins:wght@500;600&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons (Free CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <!-- Cyber HUD Elements -->
+  <div class="tech-grid-overlay"></div>
+  <div class="ambient-glows">
+    <div class="glow-orb orb-1" id="orb-1"></div>
+    <div class="glow-orb orb-2" id="orb-2"></div>
+    <div class="glow-orb orb-3" id="orb-3"></div>
+  </div>
+  <div class="cyber-cursor" id="cyber-cursor"></div>
+  <div class="cyber-cursor-dot" id="cyber-cursor-dot"></div>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="header-container">
+    <a href="#" class="logo">MSZ<span>GROWTH</span></a>
+      <nav class="nav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#funnel" class="nav-link">My System</a>
+        <a href="#portfolio" class="nav-link">Work</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="#contact" class="btn btn-teal nav-cta">Let's Talk</a>
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-btn" aria-label="Open navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Overlay Menu -->
+  <div class="mobile-menu-overlay">
+    <div class="mobile-menu-content">
+      <button class="mobile-menu-close" aria-label="Close menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <nav class="mobile-nav">
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#services" class="mobile-nav-link">Services</a>
+        <a href="#funnel" class="mobile-nav-link">My System</a>
+        <a href="#portfolio" class="mobile-nav-link">Work</a>
+        <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-teal mobile-nav-cta">Let's Talk</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-container container">
+      <div class="hero-content scroll-reveal fade-in-left">
+        <h2 class="hero-name">MUHAMMAD SAIF ZAHID</h2>
+        <span class="hero-tagline">Business Development Executive</span>
+        <h1 class="hero-headline">I Close Deals.<br>Build Funnels.<br>Scale Revenue.</h1>
+        <p class="hero-subheadline">Transformed 100+ clients from leads to revenue. $30K in a single month. Let's grow yours.</p>
+        <div class="hero-ctas">
+          <a href="#portfolio" class="btn btn-teal">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Let's Talk Strategy</a>
+        </div>
+      </div>
+      <div class="hero-visual scroll-reveal fade-in-right">
+        <div class="avatar-wrapper">
+          <img src="assets/Profile pic.png" alt="Muhammad Saif Zahid Headshot" class="avatar-image">
+          <div class="stat-badge badge-1 floating-badge">
+            <span class="badge-num">100+</span>
+            <span class="badge-txt">Clients Closed</span>
+          </div>
+          <div class="stat-badge badge-2 floating-badge">
+            <span class="badge-num">$30K</span>
+            <span class="badge-txt">Revenue Month</span>
+          </div>
+          <div class="stat-badge badge-3 floating-badge">
+            <span class="badge-num">32</span>
+            <span class="badge-txt">Deals in 30 Days</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <a href="#credibility" aria-label="Scroll down">
+        <i class="fa-solid fa-chevron-down animate-bounce"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Section 2: Credibility Snapshot -->
+  <section class="credibility-section" id="credibility">
+    <div class="container">
+      <div class="credibility-grid" id="credibility-grid">
+        <!-- Rendered Dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: About Me -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content scroll-reveal">
+          <h2 class="section-title">Building Revenue Engines, Not Just Leads</h2>
+          <div class="about-text" id="about-text-container">
+            <!-- Rendered Dynamically -->
+          </div>
+          <div class="about-bullets" id="about-bullets-container">
+            <!-- Rendered Dynamically -->
+          </div>
+        </div>
+        <div class="about-visual scroll-reveal">
+          <h3 class="timeline-title">Growth Timeline</h3>
+          <div class="timeline-graphic" id="timeline-graphic-container">
+            <!-- Rendered Dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: What I Do -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title centered">What I Do</h2>
+        <p class="section-subtitle centered">Comprehensive business development services designed to capture, nurture, and close premium prospects.</p>
+      </div>
+      <div class="services-grid" id="services-grid">
+        <!-- Rendered Dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: The Funnel I Use -->
+  <section class="funnel-section" id="funnel">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title centered" id="funnel-title">My Complete Funnel System</h2>
+        <p class="section-subtitle centered" id="funnel-subtitle">How I scaled from 0 to 100+ clients</p>
+      </div>
+      
+      <!-- Interactive Pipeline Graphic -->
+      <div class="funnel-timeline-wrapper scroll-reveal">
+        <div class="funnel-line-bg"></div>
+        <div class="funnel-timeline" id="funnel-timeline-container">
+          <!-- Rendered Dynamically -->
+        </div>
+      </div>
+      
+      <!-- Funnel Metrics -->
+      <div class="funnel-metrics-bar" id="funnel-metrics-container">
+        <!-- Rendered Dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Portfolio / Case Studies -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title centered">Proven Case Studies</h2>
+        <p class="section-subtitle centered">Real projects. Documented growth. Outsized performance.</p>
+      </div>
+      <div class="portfolio-grid" id="portfolio-grid">
+        <!-- Rendered Dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: Platform Expertise -->
+  <section class="platforms-section" id="platforms">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title centered">Multi-Channel Expertise</h2>
+        <p class="section-subtitle centered">Active presence and top ratings across major business transaction platforms.</p>
+      </div>
+      <div class="platforms-grid" id="platforms-grid">
+        <!-- Rendered Dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 8: Testimonials -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title centered">What Clients Say</h2>
+        <p class="section-subtitle centered">Social proof from high growth business leaders and independent agency managers.</p>
+      </div>
+      <div class="testimonials-carousel-container">
+        <div class="testimonials-carousel" id="testimonials-carousel">
+          <!-- Rendered Dynamically -->
+        </div>
+        <!-- Carousel Nav -->
+        <div class="carousel-nav">
+          <button id="prev-testimonial" aria-label="Previous testimonial"><i class="fa-solid fa-arrow-left"></i></button>
+          <div class="carousel-dots" id="carousel-dots"></div>
+          <button id="next-testimonial" aria-label="Next testimonial"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 9: Why Clients Choose Me & ROI Calculator -->
+  <section class="why-choose-me-section" id="why-me">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-content scroll-reveal">
+          <h2 class="section-title">Why Clients Partner With Me</h2>
+          <p class="section-text-intro">I deliver structured systems and measurable revenue growth, avoiding scattered tactics.</p>
+          <div class="reasons-grid" id="reasons-container">
+            <!-- Rendered Dynamically -->
+          </div>
+        </div>
+        
+        <!-- ROI Calculator Widget (Interactive Feature) -->
+        <div class="roi-calculator-card scroll-reveal">
+          <div class="calculator-header">
+            <h3><i class="fa-solid fa-calculator"></i> Funnel ROI Calculator</h3>
+            <p>Project your potential monthly revenue based on your pipeline goals.</p>
+          </div>
+          <div class="calculator-body">
+            <div class="form-group">
+              <label for="leads-input">Leads Generated per Month</label>
+              <div class="input-wrapper">
+                <input type="number" id="leads-input" value="100" min="10" max="5000">
+                <span class="input-unit">leads</span>
+              </div>
+              <input type="range" id="leads-range" min="10" max="1000" value="100" step="10" class="range-slider">
+            </div>
+            
+            <div class="form-group">
+              <label for="conversion-input">Funnel Conversion Rate (%)</label>
+              <div class="input-wrapper">
+                <input type="number" id="conversion-input" value="15" min="1" max="100">
+                <span class="input-unit">%</span>
+              </div>
+              <input type="range" id="conversion-range" min="5" max="75" value="15" step="1" class="range-slider">
+            </div>
+
+            <div class="form-group">
+              <label for="deal-value-input">Average Deal Size ($)</label>
+              <div class="input-wrapper">
+                <input type="number" id="deal-value-input" value="2000" min="100" max="100000">
+                <span class="input-unit">$</span>
+              </div>
+              <input type="range" id="deal-value-range" min="500" max="20000" value="2000" step="250" class="range-slider">
+            </div>
+
+            <hr class="calc-divider">
+
+            <div class="calculator-results">
+              <div class="result-row">
+                <span>Projected Closed Clients:</span>
+                <span id="projected-clients" class="result-highlight-sub">15</span>
+              </div>
+              <div class="result-row total-row">
+                <span>Projected Monthly Revenue:</span>
+                <span id="projected-revenue" class="result-highlight">$30,000</span>
+              </div>
+            </div>
+            
+            <a href="#contact" class="btn btn-teal btn-block calculator-cta">Secure This Growth</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 10: Skills Breakdown -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <div class="skills-grid">
+        <div class="skills-column scroll-reveal">
+          <h2 class="section-title">Technical Expertise</h2>
+          <div class="skills-bars-container" id="technical-skills-container">
+            <!-- Rendered Dynamically -->
+          </div>
+        </div>
+        <div class="skills-column scroll-reveal">
+          <h2 class="section-title">Core Competencies</h2>
+          <p class="skills-desc">Beyond tools, sales is about human psychology, strategic targeting, and workflow efficiency.</p>
+          <div class="skills-badges-container" id="soft-skills-container">
+            <!-- Rendered Dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 11: Results & Metrics -->
+  <section class="results-section" id="results">
+    <div class="container scroll-reveal">
+      <h2 class="results-title centered">By The Numbers</h2>
+      <div class="results-grid">
+        <div class="result-item">
+          <div class="result-big-num">100+</div>
+          <div class="result-label">Clients Closed</div>
+        </div>
+        <div class="result-item">
+          <div class="result-big-num">$30K</div>
+          <div class="result-label">Single Month Revenue</div>
+        </div>
+        <div class="result-item">
+          <div class="result-big-num">32</div>
+          <div class="result-label">Deals in 30 Days</div>
+        </div>
+        <div class="result-item">
+          <div class="result-big-num">85%</div>
+          <div class="result-label">Client Retention Rate</div>
+        </div>
+      </div>
+      <div class="results-meta-row">
+        <span>65-75% Funnel Conversion</span>
+        <span class="meta-dot">•</span>
+        <span>45% Upwork Proposal Response Rate</span>
+        <span class="meta-dot">•</span>
+        <span>35% Average Client Revenue Increase</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 12: Call-To-Action Section -->
+  <section class="cta-section" id="cta">
+    <div class="container scroll-reveal centered">
+      <h2 class="cta-headline">Ready to Scale Your Business?</h2>
+      <p class="cta-subheadline">Let's build a funnel that actually works.</p>
+      <div class="cta-buttons">
+        <a href="#contact" class="btn btn-navy">Start Your Growth</a>
+        <a href="#contact" class="btn btn-outline-white">Schedule Strategy Call</a>
+      </div>
+      <div class="cta-footer-text">
+        <span><i class="fa-solid fa-check text-teal"></i> Free 30-min consultation</span>
+        <span><i class="fa-solid fa-check text-teal"></i> No obligations</span>
+        <span><i class="fa-solid fa-check text-teal"></i> Results-focused</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 13: Contact / Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-contact scroll-reveal">
+          <h2 class="footer-title">Let's Connect</h2>
+          <p class="footer-desc">Have a project, job opening, or strategy question? Drop a line and let's explore synergies.</p>
+          
+          <ul class="contact-methods">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ms8288236@gmail.com" class="contact-link">
+  <i class="fa-solid fa-envelope"></i>
+  <span>ms8288236@gmail.com</span>
+</a>
+            <li>
+              <a href="https://linkedin.com/" id="profile-linkedin-link" target="_blank" rel="noopener" class="contact-link">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </li>
+            <li>
+  <a href="https://wa.me/923439881146" id="profile-whatsapp-link" target="_blank" rel="noopener" class="contact-link">
+    <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
+  </a>
+</li>
+            
+          </ul>
+        </div>
+        
+        <div class="footer-newsletter scroll-reveal">
+          <h2 class="footer-title">Stay Updated</h2>
+          <p class="footer-desc">Subscribe for business development tips and growth strategies.</p>
+          
+          <form class="newsletter-form" id="newsletter-form">
+            <div class="form-row">
+              <input type="email" placeholder="Enter your email address" required aria-label="Email Address">
+              <button type="submit" class="btn btn-teal">Subscribe</button>
+            </div>
+            <div class="form-status" id="newsletter-status"></div>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">&copy; <span id="current-year">2026</span> MSZ Growth. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
